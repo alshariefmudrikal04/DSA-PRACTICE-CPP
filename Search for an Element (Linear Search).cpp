@@ -16,7 +16,7 @@ int main() {
     cout << "Search: ";
     cin >> find1;
 
-    int pos = -1; // default = not found
+    int pos = -1; 
     for (int i = 0; i < num; i++) {
         if (arr[i] == find1) {
             pos = i;
@@ -25,9 +25,10 @@ int main() {
     }
 
     if (pos != -1)
-        cout << "The position of " << find1 << " is " << pos + 1; // human-friendly (1-based)
+        cout << "The position of " << find1 << " is " << pos + 1; 
     else
         cout << find1 << " not found in the array.";
 
     return 0;
 }
+
